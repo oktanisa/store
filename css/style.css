@@ -1770,7 +1770,7 @@ input[type="text"] {
           position: absolute;
           right: 0px;
           font-family: 'icomoon';
-          speak: none;
+          speak-as: none;
           font-style: normal;
           font-weight: normal;
           font-variant: normal;
