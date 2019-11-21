@@ -70,8 +70,8 @@
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
 								<li><a href="index.html">Beranda</a></li>
-								<li class="has-dropdown">
-									<a href="shop.html">Belanja</a>
+								<li class="has-dropdown active">
+									<a href="produk.html">Produk</a>
 									<ul class="dropdown">
 										<li><a href="product-detail.html">Product Detail</a></li>
 										<li><a href="keranjang.html">Shipping Cart</a></li>
