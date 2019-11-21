@@ -70,7 +70,7 @@
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
 								<li><a href="index.html">Beranda</a></li>
-								<li class="has-dropdown active">
+								<li class="has-dropdown">
 									<a href="produk.html">Produk</a>
 									<ul class="dropdown">
 										<li><a href="product-detail.html">Product Detail</a></li>
@@ -134,13 +134,14 @@
 include "koneksi.php";
 $query = mysqli_query($connection,"SELECT * FROM kategori");
 ?>
+
 <form action="" method="post" class="product-name">
-    <table style="width:100%" class="col-md-10 col-md-offset-1">
+    <table style="width:100%" class="col-lg-1 col-md-offset-1">
         <tr>
-            <th>No</th>
-            <th>id kategori</th>
-            <th>nama kategori</th>
-            <th>Action</th>
+            <th>No.</th>
+            <th>ID KATEGORI</th>
+            <th>NAMA KATEGORI</th>
+            <th>AKSI</th>
         </tr>
         <?php if(mysqli_num_rows($query)>1){ ?>
         <?php
@@ -152,8 +153,8 @@ $query = mysqli_query($connection,"SELECT * FROM kategori");
             <td><?php echo $data["id_kategori"];?></td>
             <td><?php echo $data["nama_katgori"];?></td>
             <td>
-                <a href="#">Delete</a> |
-                <a href="#">Update</a>
+                <a href="hapus_keranjang.php?id_kategori=<?php echo $data['id_kategori']; ?>"><button class="btn btn-danger btn-sm">Hapus</button></a>
+                <!-- <a href="#"><button class="btn btn-warning btn-sm">Update</button></a> -->
             </td>
         </tr>
         <?php $no++; } ?>
@@ -161,7 +162,7 @@ $query = mysqli_query($connection,"SELECT * FROM kategori");
     </table>
 </form>
 				<!-- pembatasan -->
-				<div class="row row-pb-md">
+				<!-- <div class="row row-pb-md">
 					<div class="col-md-10 col-md-offset-1">
 						<div class="product-name">
 							<div class="one-forth text-center">
@@ -270,7 +271,7 @@ $query = mysqli_query($connection,"SELECT * FROM kategori");
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- FORM UNTUK PENGISIAN DATA -->
 				<div class="col-md-10 col-md-offset-1">
 					<div class="contact-wrap">
@@ -313,6 +314,7 @@ $query = mysqli_query($connection,"SELECT * FROM kategori");
 						</form>		
 					</div>
 				</div>
+				<!-- akhir dari form data pembelian -->
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<div class="total-wrap">
@@ -337,9 +339,8 @@ $query = mysqli_query($connection,"SELECT * FROM kategori");
 										<div class="grand-total">
 											<p><span><strong>Total:</strong></span> <span>$450.00</span></p>
 										</div>
-										<div class="col-md-3">
-											<input type="submit" value="Pesan Sekarang" class="btn btn-primary">
-										</div>
+										<!-- tombol pembelian -->
+										<a href="#"><button class="btn btn-primary btn-md">Pesan Sekarang</button></a>
 									</div>
 								</div>
 							</div>
