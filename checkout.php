@@ -63,26 +63,16 @@
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top-menu">
 				<div class="container">
-					<div class="row">
+				<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">ABAGBAG</a></div>
+							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Beranda</a></li>
-								<li class="has-dropdown active">
-									<a href="produk.html">Produk</a>
-									<ul class="dropdown">
-										<li><a href="product-detail.html">Product Detail</a></li>
-										<li><a href="keranjang.html">Shipping Cart</a></li>
-										<li><a href="checkout.html">Checkout</a></li>
-										<li><a href="order-complete.html">Order Complete</a></li>
-										<li><a href="add-to-wishlist.html">Wishlist</a></li>
-									</ul>
-								</li>
-								<li><a href="pembayaran.html">Pembayaran</a></li>
-								<li><a href="contact.html">Hubungi Kami</a></li>
-								<li class="active"><a href="keranjang.html"><i class="icon-shopping-cart"></i> Keranjang</a></li>
+								<li><a href="index.php">Beranda</a></li>
+								<li><a href="pembayaran.php">Pembayaran</a></li>
+								<li><a href="hubungikami.php">Hubungi Kami</a></li>
+								<li class="active"><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
 							</ul>
 						</div>
 					</div>
@@ -98,8 +88,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
-				   					<h1>Shopping Cart</h1>
-				   					<h2 class="bread"><span><a href="index.html">Home</a></span> <span><a href="produk.html">Product</a></span> <span>Shopping Cart</span></h2>
+				   					<h1>Checkout</h1>
+				   					<h2 class="bread"><span><a href="index.php">Beranda</a></span> <span><a href="pembayaran.php">Pembayaran</a></span> <span><a href="hubungikami.php">Hubungi Kami</a></span><span>Keranjang</span></h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -118,7 +108,7 @@
 								<p><span>01</span></p>
 								<h3>Shopping Cart</h3>
 							</div>
-							<div class="process text-center">
+							<div class="process text-center active">
 								<p><span>02</span></p>
 								<h3>Checkout</h3>
 							</div>
@@ -129,190 +119,120 @@
 						</div>
 					</div>
 				</div>
-				<!-- TABEL -->
-				<div class="row row-pb-md">
-					<div class="col-md-10 col-md-offset-1">
-						<div class="product-name">
-							<div class="one-forth text-center">
-								<span>Product Details</span>
-							</div>
-							<div class="one-eight text-center">
-								<span>Price</span>
-							</div>
-							<div class="one-eight text-center">
-								<span>Quantity</span>
-							</div>
-							<div class="one-eight text-center">
-								<span>Total</span>
-							</div>
-							<div class="one-eight text-center">
-								<span>Remove</span>
-							</div>
-						</div>
-						<div class="product-cart">
-							<div class="one-forth">
-								<div class="product-img" style="background-image: url(images/item-6.jpg);">
-								</div>
-								<div class="display-tc">
-									<h3>Product Name</h3>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<span class="price">$68.00</span>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="1" min="1" max="100">
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<span class="price">$120.00</span>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<a href="#" class="closed"></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-cart">
-							<div class="one-forth">
-								<div class="product-img" style="background-image: url(images/item-7.jpg);">
-								</div>
-								<div class="display-tc">
-									<h3>Product Name</h3>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<span class="price">$68.00</span>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<form action="#">
-										<input type="text" name="quantity" class="form-control input-number text-center" value="1" min="1" max="100">
-									</form>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<span class="price">$120.00</span>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<a href="#" class="closed"></a>
-								</div>
-							</div>
-						</div>
-						<div class="product-cart">
-							<div class="one-forth">
-								<div class="product-img" style="background-image: url(images/item-8.jpg);">
-								</div>
-								<div class="display-tc">
-									<h3>Product Name</h3>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<span class="price">$68.00</span>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="1" min="1" max="100">
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<span class="price">$120.00</span>
-								</div>
-							</div>
-							<div class="one-eight text-center">
-								<div class="display-tc">
-									<a href="#" class="closed"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- FORM UNTUK PENGISIAN DATA -->
-				<div class="col-md-10 col-md-offset-1">
-					<div class="contact-wrap">
-						<h3>DATA PEMBELIAN</h3>
-						<form action="#">
-							<div class="row form-group">
-								<div class="col-md-6 padding-bottom">
-									<label for="fname">Nama Depan</label>
-									<input type="text" id="fname" class="form-control" placeholder="Nama Depan" required>
-								</div>
-								<div class="col-md-6">
-									<label for="lname">Nama Belakang</label>
-									<input type="text" id="lname" class="form-control" placeholder="Nama Belakang" required>
-								</div>
-							</div>
-
-							<div class="row form-group">
-								<div class="col-md-12">
-									<label for="email">Alamat Lengkap</label>
-									<textarea name="message" id="alamat" cols="30" rows="10" class="form-control" placeholder="Alamat Lengkap" required></textarea>
-								</div>
-							</div>
-
-							<div class="row form-group">
-								<div class="col-md-12">
-									<label for="subject">Email</label>
-									<input type="text" id="email" class="form-control" placeholder="Email" required>
-								</div>
-							</div>
-
-							<div class="row form-group">
-								<div class="col-md-12">
-									<label for="message">No. WA / Telepon</label>
-									<input type="text" id="telepon" class="form-control" placeholder="No. WA / Telepon" required>
-								</div>
-							</div>
-							<!-- <div class="form-group text-center">
-								<input type="submit" value="Kirim" class="btn btn-primary">
-							</div> -->
-						</form>		
-					</div>
-				</div>
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<div class="total-wrap">
-							<div class="row">
-								<div class="col-md-8">
-									<form action="#">
-										<div class="row form-group">
-											<div class="col-md-9">
-												<input type="text" name="quantity" class="form-control input-number" placeholder="Nomor Kupon Anda...">
-											</div>
-											<div class="col-md-3">
-												<input type="submit" value="Pakai Kupon" class="btn btn-primary">
-											</div>
-										</div>
-									</form>
-								</div>
-								<div class="col-md-3 col-md-push-1 text-center">
-									<div class="total">
-										<div class="sub">
-											<p><span>Subtotal:</span> <span>$200.00</span></p>
-											<p><span>Delivery:</span> <span>$0.00</span></p>
-											<p><span>Discount:</span> <span>$45.00</span></p>
-										</div>
-										<div class="grand-total">
-											<p><span><strong>Total:</strong></span> <span>$450.00</span></p>
-										</div>
-										<div class="col-md-3">
-											<input type="submit" value="Pesan Sekarang" class="btn btn-primary">
-										</div>
+					<div class="col-md-7">
+						<form method="post" class="colorlib-form">
+							<h2>Rincian Pesanan</h2>
+		              	<div class="row">
+			               <div class="col-md-12">
+			                  <div class="form-group">
+			                     <div class="form-field">
+			                     	<i class="icon icon-arrow-down3"></i>
+			                       
+			                     </div>
+			                  </div>
+			               </div>
+			               <div class="form-group">
+									<div class="col-md-6">
+										<label for="fname">Nama Depan</label>
+										<input type="text" id="fname" class="form-control" placeholder="Nama Depan">
+									</div>
+									<div class="col-md-6">
+										<label for="lname">Nama Belakang</label>
+										<input type="text" id="lname" class="form-control" placeholder="Nama Belakang">
 									</div>
 								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="companyname">Provinsi</label>
+			                    	<input type="text" id="companyname" class="form-control" placeholder="Provinsi">
+			                  </div>
+			               </div>
+			               <div class="col-md-12">
+									<div class="form-group">
+										<label for="fname">Kabupaten/Kota</label>
+			                    	<input type="text" id="Kabupaten/Kota" class="form-control" placeholder="Kabupaten/Kota">
+			                  </div>
+			               </div>
+			               <div class="col-md-12">
+									<div class="form-group">
+										<label for="companyname">Kecamatan</label>
+			                    	<input type="text" id="towncity" class="form-control" placeholder="Kecamatan">
+			                  </div>
+			               </div>
+			               <div class="form-group">
+									<div class="col-md-6">
+										<label for="stateprovince">Jalan/Blok/No.Rumah/RT/RW</label>
+										<input type="text" id="fname" class="form-control" placeholder="Jalan/Blok/No.Rumah/RT/RW">
+									</div>
+									<div class="col-md-6">
+										<label for="lname">Kode Pos</label>
+										<input type="text" id="zippostalcode" class="form-control" placeholder="Kode Pos">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-6">
+										<label for="email">Email</label>
+										<input type="text" id="email" class="form-control" placeholder="Email">
+									</div>
+									<div class="col-md-6">
+										<label for="Phone">No handphone/WA</label>
+										<input type="text" id="zippostalcode" class="form-control" placeholder="No handphone/WA">
+									</div>
+								</div>
+								
+		              </div>
+		            </form>
+					</div>
+					<div class="col-md-5">
+						<div class="cart-detail">
+							<h2>Total Belanja</h2>
+							<ul>
+								<li>
+									<span>Subtotal</span> <span>$100.00</span>
+									<ul>
+										<li><span>1 x Product Name</span> <span>$99.00</span></li>
+										<li><span>1 x Product Name</span> <span>$78.00</span></li>
+									</ul>
+								</li>
+								<li><span>Ongkir</span> <span>$0.00</span></li>
+								<li><span>Total Pesanan</span> <span>$180.00</span></li>
+							</ul>
+						</div>
+						<div class="cart-detail">
+							<h2>Payment Method</h2>
+							<div class="form-group">
+								<div class="col-md-12">
+									<div class="radio">
+									   <label><input type="radio" name="optradio">Direct Bank Tranfer</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-12">
+									<div class="radio">
+									   <label><input type="radio" name="optradio">Check Payment</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-12">
+									<div class="radio">
+									   <label><input type="radio" name="optradio">Paypal</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-12">
+									<div class="checkbox">
+									   <label><input type="checkbox" value="">I have read and accept the terms and conditions</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p><a href="#" class="btn btn-primary">Place an order</a></p>
 							</div>
 						</div>
 					</div>
@@ -410,7 +330,6 @@
 		</div>
 
 
-		
 		<footer id="colorlib-footer" role="contentinfo">
 			<div class="container">
 				<div class="row row-pb-md">

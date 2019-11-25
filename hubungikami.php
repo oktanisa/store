@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Store Template</title>
+	<title>ABAGBAG</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -65,24 +65,14 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">ABAGBAG</a></div>
+							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Beranda</a></li>
-								<li class="has-dropdown">
-									<a href="produk.html">Produk</a>
-									<ul class="dropdown">
-										<li><a href="product-detail.html">Product Detail</a></li>
-										<li><a href="cart.html">Shipping Cart</a></li>
-										<li><a href="checkout.html">Checkout</a></li>
-										<li><a href="order-complete.html">Order Complete</a></li>
-										<li><a href="add-to-wishlist.html">Wishlist</a></li>
-									</ul>
-								</li>
-								<li><a href="pembayaran.html">Pembayaran</a></li>
-								<li class="active"><a href="contact.html">Hubungi Kami</a></li>
-								<li><a href="keranjang.html"><i class="icon-shopping-cart"></i> Keranjang</a></li>
+								<li><a href="index.php">Beranda</a></li>
+								<li><a href="pembayaran.php">Pembayaran</a></li>
+								<li class="active"><a href="hubungikami.php">Hubungi Kami</a></li>
+								<li><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
 							</ul>
 						</div>
 					</div>
@@ -99,7 +89,7 @@
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
 				   					<h1>Hubungi Kami</h1>
-				   					<h2 class="bread"><span><a href="index.html">Beranda</a></span> <span>Hubungi Kami</span></h2>
+				   					<h2 class="bread"><span><a href="index.php">Beranda</a></span> <span><a href="pembayaran.php">Pembayaran</a></span> <span>Hubungi Kami</span></h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -126,51 +116,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-10 col-md-offset-1">
-						<div class="contact-wrap">
-							<h3>Kritik dan Saran</h3>
-							<form action="#">
-								<div class="row form-group">
-									<div class="col-md-6 padding-bottom">
-										<label for="fname">Nama Depan</label>
-										<input type="text" id="fname" class="form-control" placeholder="Nama Depan">
-									</div>
-									<div class="col-md-6">
-										<label for="lname">Nama Belakang</label>
-										<input type="text" id="lname" class="form-control" placeholder="Nama Belakang">
-									</div>
-								</div>
-
-								<div class="row form-group">
-									<div class="col-md-12">
-										<label for="email">Email</label>
-										<input type="text" id="email" class="form-control" placeholder="Email">
-									</div>
-								</div>
-
-								<div class="row form-group">
-									<div class="col-md-12">
-										<label for="subject">Subjek</label>
-										<input type="text" id="subject" class="form-control" placeholder="Subjek">
-									</div>
-								</div>
-
-								<div class="row form-group">
-									<div class="col-md-12">
-										<label for="message">Kritik Dan Saran</label>
-										<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Kritik Dan Saran"></textarea>
-									</div>
-								</div>
-								<div class="form-group text-center">
-									<input type="submit" value="Kirim" class="btn btn-primary">
-								</div>
-							</form>		
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		
 			
 		<footer id="colorlib-footer" role="contentinfo">

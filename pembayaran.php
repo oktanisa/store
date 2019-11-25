@@ -65,12 +65,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
+<<<<<<< HEAD:pembayaran.html
 							<div id="colorlib-logo"><a href="index.html">Store</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li class="has-dropdown">
+								<li class="has-dropdown active">
 									<a href="shop.html">Shop</a>
 									<ul class="dropdown">
 										<li><a href="product-detail.html">Product Detail</a></li>
@@ -81,9 +82,19 @@
 									</ul>
 								</li>
 								<li><a href="blog.html">Blog</a></li>
-								<li class="active"><a href="about.html">About</a></li>
+								<li><a href="about.html">About</a></li>
 								<li><a href="contact.html">Contact</a></li>
 								<li><a href="keranjang.html"><i class="icon-shopping-cart"></i> Keranjang</a></li>
+=======
+							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
+						</div>
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li><a href="index.php">Beranda</a></li>
+								<li class="active"><a href="pembayaran.php">Pembayaran</a></li>
+								<li><a href="hubungikami.php">Hubungi Kami</a></li>
+								<li><a href="keranjang.php"><i class="icon-shopping-cart"></i>Keranjang</a></li>
+>>>>>>> 1e4d4736aec2e430a05841eaec616ac301bb777a:pembayaran.php
 							</ul>
 						</div>
 					</div>
@@ -99,8 +110,13 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
-				   					<h1>About Us</h1>
-				   					<h2 class="bread"><span><a href="index.html">Home</a></span> <span>About</span></h2>
+<<<<<<< HEAD:pembayaran.html
+				   					<h1>Checkout</h1>
+				   					<h2 class="bread"><span><a href="index.html">Home</a></span> <span><a href="cart.html">Shopping Cart</a></span> <span>Checkout</span></h2>
+=======
+				   					<h1>Pembayaran</h1>
+				   					<h2 class="bread"><span><a href="index.php">Beranda</a></span> <span>Pembayaran</span></h2>
+>>>>>>> 1e4d4736aec2e430a05841eaec616ac301bb777a:pembayaran.php
 				   				</div>
 				   			</div>
 				   		</div>
@@ -110,85 +126,89 @@
 		  	</div>
 		</aside>
 
-		<div id="colorlib-about">
-			<div class="container">
+		
 				<div class="row">
-					<div class="about-flex">
-						<div class="col-one-forth">
-							<div class="row">
-								<div class="col-md-12 about">
-									<h2>About</h2>
-
-									<ul>
-										<li><a href="#">History</a></li>
-										<li><a href="#">Staff</a></li>
-										<li><a href="#">Connect with us</a></li>
-										<li><a href="#">Faqs</a></li>
-										<li><a href="#">Career</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-three-forth">
-							<h2>History</h2>
-							<div class="row">
+					<div class="col-md-5 col-md-offset-1">
+						<form method="post" class="colorlib-form">
+							<h2>Uploadd Bukti Pembayaran</h2>
+		              	<div class="row">
+			               <div class="col-md-12">
+			               </div>
 								<div class="col-md-12">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-
-									<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-
-									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-
-									<div class="row row-pb-sm">
-										<div class="col-md-6">
-											<img class="img-responsive" src="images/about.jpg" alt="">
-										</div>
-										<div class="col-md-6">
-											<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-											<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-										</div>
-									</div>
-
-
-									<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-
-									<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-
-									<p>But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-								</div>
+									<div class="form-group">
+										<label for="companyname">ID Transaksi</label>
+			                    	<input type="text" id="companyname" class="form-control" placeholder="ID Transaksi">
+			                  </div>
+			               </div>
+			               <div class="col-md-12">
+									<div class="form-group">
+										<label for="fname">Nama Pemilik Rekening</label>
+			                    	<input type="text" id="address" class="form-control" placeholder="Nama Pemilik Rekening">
+			                  </div>
+			               </div>
+			               <div class="col-md-12">
+									<div class="form-group">
+										<label for="companyname">Bank</label>
+			                    	<input type="text" id="towncity" class="form-control" placeholder="Bank">
+			                  </div>
+						   </div>
+						  <div class="form-group">
+						<div class="row">
+							<div class="col-md-7">
+								<p><a href="#" class="btn btn-primary">Upload</a></p>
+							</div>
+						</div>
+					</div>
+						<div class="row">
+							<div class="col-md-7">
+								<p><a href="#" class="btn btn-primary">Batal</a></p>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="col-md-5">
+					<div class="cart-detail">
+						<h2>Apa Itu Bukti Pembayaran?</h2>
+						<p>Bukti pembayaran merupakan bukti transfer bank transaksi pemesanan yang anda lakukan, caranya</p>					
+						<ul>
+							<li>1. Masukkan Id_transaksi anda.
+								<ul>
+									<li>2. Jangan lupa nama pemilik nomor rekening.
+									<li>3. Bank transfer. Misal : BRI, BCA, MANDIRI, BNI. dll.
+								</ul>
+							</li>
+							<li>4. Terakhir scan atau foto bukti transfer nya.
+						</ul>
+						<h2>*ukuran gambar maksimal 1mb.</h2>
+					</div>
 			</div>
 		</div>
 
-
-		<div id="colorlib-subscribe">
-			<div class="overlay"></div>
+		<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+			<h2><span>Status Pembayaran</span></h2>
+		<div class="colorlib-shop">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="col-md-6 text-center">
-							<h2><i class="icon-paperplane"></i>Sign Up for a Newsletter</h2>
-						</div>
-						<div class="col-md-6">
-							<form class="form-inline qbstp-header-subscribe">
-								<div class="row">
-									<div class="col-md-12 col-md-offset-0">
-										<div class="form-group">
-											<input type="text" class="form-control" id="email" placeholder="Enter your email">
-											<button type="submit" class="btn btn-primary">Subscribe</button>
-										</div>
-									</div>
-								</div>
-							</form>
+				<div class="row row-pb-md">
+					<div class="col-md-6">
+						<div class="process-wrap">
+							<div class="process text-center active">
+								<p><span>01</span></p>
+								<h3>Belum Terbayar</h3>
+							</div>
+							<div class="process text-center active">
+								<p><span>02</span></p>
+								<h3>Proses</h3>
+							</div>
+							<div class="process text-center">
+								<p><span>03</span></p>
+								<h3>Sudah Terbayar</h3>
+							</div>
+						
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-
+				
+			</div>	
 		<footer id="colorlib-footer" role="contentinfo">
 			<div class="container">
 				<div class="row row-pb-md">
@@ -255,6 +275,7 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<p>
+							
 							<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 

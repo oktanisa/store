@@ -1770,7 +1770,7 @@ input[type="text"] {
           position: absolute;
           right: 0px;
           font-family: 'icomoon';
-          speak: none;
+          speak-as: none;
           font-style: normal;
           font-weight: normal;
           font-variant: normal;
@@ -1945,6 +1945,11 @@ input[type="text"] {
       color: #000;
       border: 1px solid #FFC300; }
 
+.table th, td {
+  padding: 5px;}
+  th, td {
+text-align: center ;}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -1958,6 +1963,8 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px; }
+  .btn.btn-sm {
+    padding: 4px 8px;}
   .btn.btn-md {
     padding: 8px 20px !important; }
   .btn.btn-lg {
