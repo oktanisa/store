@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Store Template</title>
+	<title>ABAGBAG</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -63,27 +63,16 @@
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top-menu">
 				<div class="container">
-					<div class="row">
+				<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">Store</a></div>
+							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li class="has-dropdown active">
-									<a href="shop.html">Shop</a>
-									<ul class="dropdown">
-										<li><a href="product-detail.html">Product Detail</a></li>
-										<li><a href="cart.html">Shipping Cart</a></li>
-										<li><a href="checkout.html">Checkout</a></li>
-										<li><a href="order-complete.html">Order Complete</a></li>
-										<li><a href="add-to-wishlist.html">Wishlist</a></li>
-									</ul>
-								</li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="keranjang.html"><i class="icon-shopping-cart"></i> Keranjang</a></li>
+								<li><a href="index.php">Beranda</a></li>
+								<li><a href="pembayaran.php">Pembayaran</a></li>
+								<li><a href="hubungikami.php">Hubungi Kami</a></li>
+								<li class="active"><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
 							</ul>
 						</div>
 					</div>
@@ -100,7 +89,7 @@
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
 				   					<h1>Checkout</h1>
-				   					<h2 class="bread"><span><a href="index.html">Home</a></span> <span><a href="cart.html">Shopping Cart</a></span> <span>Checkout</span></h2>
+				   					<h2 class="bread"><span><a href="index.php">Beranda</a></span> <span><a href="pembayaran.php">Pembayaran</a></span> <span><a href="hubungikami.php">Hubungi Kami</a></span><span>Keranjang</span></h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -133,89 +122,71 @@
 				<div class="row">
 					<div class="col-md-7">
 						<form method="post" class="colorlib-form">
-							<h2>Billing Details</h2>
+							<h2>Rincian Pesanan</h2>
 		              	<div class="row">
 			               <div class="col-md-12">
 			                  <div class="form-group">
-			                  	<label for="country">Select Country</label>
 			                     <div class="form-field">
 			                     	<i class="icon icon-arrow-down3"></i>
-			                        <select name="people" id="people" class="form-control">
-				                      	<option value="#">Select country</option>
-				                        <option value="#">Alaska</option>
-				                        <option value="#">China</option>
-				                        <option value="#">Japan</option>
-				                        <option value="#">Korea</option>
-				                        <option value="#">Philippines</option>
-			                        </select>
+			                       
 			                     </div>
 			                  </div>
 			               </div>
 			               <div class="form-group">
 									<div class="col-md-6">
-										<label for="fname">First Name</label>
-										<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+										<label for="fname">Nama Depan</label>
+										<input type="text" id="fname" class="form-control" placeholder="Nama Depan">
 									</div>
 									<div class="col-md-6">
-										<label for="lname">Last Name</label>
-										<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+										<label for="lname">Nama Belakang</label>
+										<input type="text" id="lname" class="form-control" placeholder="Nama Belakang">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<label for="companyname">Company Name</label>
-			                    	<input type="text" id="companyname" class="form-control" placeholder="Company Name">
+										<label for="companyname">Provinsi</label>
+			                    	<input type="text" id="companyname" class="form-control" placeholder="Provinsi">
 			                  </div>
 			               </div>
 			               <div class="col-md-12">
 									<div class="form-group">
-										<label for="fname">Address</label>
-			                    	<input type="text" id="address" class="form-control" placeholder="Enter Your Address">
-			                  </div>
-			                  <div class="form-group">
-			                    	<input type="text" id="address2" class="form-control" placeholder="Second Address">
+										<label for="fname">Kabupaten/Kota</label>
+			                    	<input type="text" id="Kabupaten/Kota" class="form-control" placeholder="Kabupaten/Kota">
 			                  </div>
 			               </div>
 			               <div class="col-md-12">
 									<div class="form-group">
-										<label for="companyname">Town/City</label>
-			                    	<input type="text" id="towncity" class="form-control" placeholder="Town or City">
+										<label for="companyname">Kecamatan</label>
+			                    	<input type="text" id="towncity" class="form-control" placeholder="Kecamatan">
 			                  </div>
 			               </div>
 			               <div class="form-group">
 									<div class="col-md-6">
-										<label for="stateprovince">State/Province</label>
-										<input type="text" id="fname" class="form-control" placeholder="State Province">
+										<label for="stateprovince">Jalan/Blok/No.Rumah/RT/RW</label>
+										<input type="text" id="fname" class="form-control" placeholder="Jalan/Blok/No.Rumah/RT/RW">
 									</div>
 									<div class="col-md-6">
-										<label for="lname">Zip/Postal Code</label>
-										<input type="text" id="zippostalcode" class="form-control" placeholder="Zip / Postal">
+										<label for="lname">Kode Pos</label>
+										<input type="text" id="zippostalcode" class="form-control" placeholder="Kode Pos">
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col-md-6">
-										<label for="email">E-mail Address</label>
-										<input type="text" id="email" class="form-control" placeholder="State Province">
+										<label for="email">Email</label>
+										<input type="text" id="email" class="form-control" placeholder="Email">
 									</div>
 									<div class="col-md-6">
-										<label for="Phone">Phone Number</label>
-										<input type="text" id="zippostalcode" class="form-control" placeholder="">
+										<label for="Phone">No handphone/WA</label>
+										<input type="text" id="zippostalcode" class="form-control" placeholder="No handphone/WA">
 									</div>
 								</div>
-								<div class="form-group">
-									<div class="col-md-12">
-										<div class="radio">
-										  <label><input type="radio" name="optradio">Create an Account? </label>
-										  <label><input type="radio" name="optradio"> Ship to different address</label>
-										</div>
-									</div>
-								</div>
+								
 		              </div>
 		            </form>
 					</div>
 					<div class="col-md-5">
 						<div class="cart-detail">
-							<h2>Cart Total</h2>
+							<h2>Total Belanja</h2>
 							<ul>
 								<li>
 									<span>Subtotal</span> <span>$100.00</span>
@@ -224,8 +195,8 @@
 										<li><span>1 x Product Name</span> <span>$78.00</span></li>
 									</ul>
 								</li>
-								<li><span>Shipping</span> <span>$0.00</span></li>
-								<li><span>Order Total</span> <span>$180.00</span></li>
+								<li><span>Ongkir</span> <span>$0.00</span></li>
+								<li><span>Total Pesanan</span> <span>$180.00</span></li>
 							</ul>
 						</div>
 						<div class="cart-detail">
@@ -359,37 +330,14 @@
 		</div>
 
 
-		<div id="colorlib-subscribe">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="col-md-6 text-center">
-							<h2><i class="icon-paperplane"></i>Sign Up for a Newsletter</h2>
-						</div>
-						<div class="col-md-6">
-							<form class="form-inline qbstp-header-subscribe">
-								<div class="row">
-									<div class="col-md-12 col-md-offset-0">
-										<div class="form-group">
-											<input type="text" class="form-control" id="email" placeholder="Enter your email">
-											<button type="submit" class="btn btn-primary">Subscribe</button>
-										</div>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<footer id="colorlib-footer" role="contentinfo">
 			<div class="container">
 				<div class="row row-pb-md">
-					<div class="col-md-3 colorlib-widget">
-						<h4>About Store</h4>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<div class="col-md-5 colorlib-widget">
+						<h4>Tentang Kami</h4>
+						<p>Toko online terlengkap dan termurah dengan harga promo setiap harinya.
+							Tidak hanya produk fashion saja, kami juga menyediakan perlengkapan bayi, mainan anak dan peralatan rumah tangga.
+						</p>
 						<p>
 							<ul class="colorlib-social-icons">
 								<li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -399,49 +347,14 @@
 							</ul>
 						</p>
 					</div>
-					<div class="col-md-2 colorlib-widget">
-						<h4>Customer Care</h4>
-						<p>
-							<ul class="colorlib-footer-links">
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">Returns/Exchange</a></li>
-								<li><a href="#">Gift Voucher</a></li>
-								<li><a href="#">Wishlist</a></li>
-								<li><a href="#">Special</a></li>
-								<li><a href="#">Customer Services</a></li>
-								<li><a href="#">Site maps</a></li>
-							</ul>
-						</p>
-					</div>
-					<div class="col-md-2 colorlib-widget">
-						<h4>Information</h4>
-						<p>
-							<ul class="colorlib-footer-links">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Delivery Information</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Support</a></li>
-								<li><a href="#">Order Tracking</a></li>
-							</ul>
-						</p>
-					</div>
 
-					<div class="col-md-2">
-						<h4>News</h4>
-						<ul class="colorlib-footer-links">
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Exhibitions</a></li>
-						</ul>
-					</div>
 
-					<div class="col-md-3">
-						<h4>Contact Information</h4>
+					<div class="col-md-6">
+						<h4>Kontak Kami</h4>
 						<ul class="colorlib-footer-links">
-							<li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
-							<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-							<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li><a href="#">yoursite.com</a></li>
+							<li>Jl. S.Parman No.42 Jember 68121, <br> </li>
+							<li><a href="tel://1234567920">(0331) 330900</a></li>
+							<li><a href="mailto:abagbag@gmail.com">abagbag@gmail.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -452,9 +365,7 @@
 						<p>
 							
 							<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 
-							<span class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> , <a href="http://pexels.com/" target="_blank">Pexels.com</a></span>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Abagbag </span> 
 						</p>
 					</div>
 				</div>

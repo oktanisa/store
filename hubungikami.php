@@ -65,14 +65,14 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">ABAGBAG</a></div>
+							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Beranda</a></li>
-								<li><a href="pembayaran.html">Pembayaran</a></li>
-								<li class="active"><a href="hubungikami.html">Hubungi Kami</a></li>
-								<li><a href="keranjang.html"><i class="icon-shopping-cart"></i> Keranjang</a></li>
+								<li><a href="index.php">Beranda</a></li>
+								<li><a href="pembayaran.php">Pembayaran</a></li>
+								<li class="active"><a href="hubungikami.php">Hubungi Kami</a></li>
+								<li><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
 							</ul>
 						</div>
 					</div>
@@ -89,7 +89,7 @@
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
 				   					<h1>Hubungi Kami</h1>
-				   					<h2 class="bread"><span><a href="index.html">Beranda</a></span> <span>Hubungi Kami</span></h2>
+				   					<h2 class="bread"><span><a href="index.php">Beranda</a></span> <span><a href="pembayaran.php">Pembayaran</a></span> <span>Hubungi Kami</span></h2>
 				   				</div>
 				   			</div>
 				   		</div>

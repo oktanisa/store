@@ -88,8 +88,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
-				   					<h1>Keranjang</h1>
-				   					<h2 class="bread"><span><a href="index.php">Beranda</a></span> <span><a href="pembayaran.php">Pembayaran</a></span> <span><a href="hubungikami.php">Hubungi Kami</a></span><span>Keranjang</span></h2>
+				   					<h1>Shopping Cart</h1>
+				   					<h2 class="bread"><span><a href="index.html">Home</a></span> <span><a href="produk.html">Product</a></span> <span>Shopping Cart</span></h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -120,25 +120,55 @@
 					</div>
 				</div>
 				<!-- TABEL -->
-				
-				<!-- FORM UNTUK PENGISIAN DATA -->
-				<div class="row row-pb-md">
+				<?php
+include "koneksi.php";
+$query = mysqli_query($connection,"SELECT * FROM kategori");
+?>
+
+<form action="" method="post" class="product-name">
+    <table style="width:100%" class="col-lg-1 col-md-offset-1">
+        <tr>
+            <th>No.</th>
+            <th>ID KATEGORI</th>
+            <th>NAMA KATEGORI</th>
+            <th>AKSI</th>
+        </tr>
+        <?php if(mysqli_num_rows($query)>1){ ?>
+        <?php
+            $no = 1;
+            while($data = mysqli_fetch_array($query)){
+        ?>
+        <tr>
+            <td><?php echo $no ?></td>
+            <td><?php echo $data["id_kategori"];?></td>
+            <td><?php echo $data["nama_katgori"];?></td>
+            <td>
+                <a href="hapus_keranjang.php?id_kategori=<?php echo $data['id_kategori']; ?>"><button class="btn btn-danger btn-sm">Hapus</button></a>
+                <!-- <a href="#"><button class="btn btn-warning btn-sm">Update</button></a> -->
+            </td>
+        </tr>
+        <?php $no++; } ?>
+        <?php } ?>
+    </table>
+</form>
+				<!-- pembatasan -->
+				<!-- <div class="row row-pb-md">
 					<div class="col-md-10 col-md-offset-1">
 						<div class="product-name">
 							<div class="one-forth text-center">
-								<span>Rincian Produk</span>
+								<span>Product Details</span>
 							</div>
 							<div class="one-eight text-center">
-								<span>Harga</span>
+								<span>Price</span>
 							</div>
 							<div class="one-eight text-center">
-								<span>Jumlah</span>
+								<span>Quantity</span>
 							</div>
 							<div class="one-eight text-center">
 								<span>Total</span>
 							</div>
 							<div class="one-eight text-center">
-								<span>Hapus</span>
+								<span>Remove</span>
 							</div>
 						</div>
 						<div class="product-cart">
@@ -146,7 +176,7 @@
 								<div class="product-img" style="background-image: url(images/item-6.jpg);">
 								</div>
 								<div class="display-tc">
-									<h3>Nama Produk</h3>
+									<h3>Product Name</h3>
 								</div>
 							</div>
 							<div class="one-eight text-center">
@@ -175,7 +205,7 @@
 								<div class="product-img" style="background-image: url(images/item-7.jpg);">
 								</div>
 								<div class="display-tc">
-									<h3>Nama Produk</h3>
+									<h3>Product Name</h3>
 								</div>
 							</div>
 							<div class="one-eight text-center">
@@ -206,7 +236,7 @@
 								<div class="product-img" style="background-image: url(images/item-8.jpg);">
 								</div>
 								<div class="display-tc">
-									<h3>Nama Produk</h3>
+									<h3>Product Name</h3>
 								</div>
 							</div>
 							<div class="one-eight text-center">
@@ -231,34 +261,78 @@
 							</div>
 						</div>
 					</div>
+				</div> -->
+				<!-- FORM UNTUK PENGISIAN DATA -->
+				<div class="col-md-10 col-md-offset-1">
+					<div class="contact-wrap">
+						<h3>DATA PEMBELIAN</h3>
+						<form action="#">
+							<div class="row form-group">
+								<div class="col-md-6 padding-bottom">
+									<label for="fname">Nama Depan</label>
+									<input type="text" id="fname" class="form-control" placeholder="Nama Depan" required>
+								</div>
+								<div class="col-md-6">
+									<label for="lname">Nama Belakang</label>
+									<input type="text" id="lname" class="form-control" placeholder="Nama Belakang" required>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="email">Alamat Lengkap</label>
+									<textarea name="message" id="alamat" cols="30" rows="10" class="form-control" placeholder="Alamat Lengkap" required></textarea>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="subject">Email</label>
+									<input type="text" id="email" class="form-control" placeholder="Email" required>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label for="message">No. WA / Telepon</label>
+									<input type="text" id="telepon" class="form-control" placeholder="No. WA / Telepon" required>
+								</div>
+							</div>
+							<!-- <div class="form-group text-center">
+								<input type="submit" value="Kirim" class="btn btn-primary">
+							</div> -->
+						</form>		
+					</div>
 				</div>
+				<!-- akhir dari form data pembelian -->
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<div class="total-wrap">
 							<div class="row">
 								<div class="col-md-8">
-									
+									<form action="#">
+										<div class="row form-group">
+											<div class="col-md-9">
+												<input type="text" name="quantity" class="form-control input-number" placeholder="Nomor Kupon Anda...">
+											</div>
+											<div class="col-md-3">
+												<input type="submit" value="Pakai Kupon" class="btn btn-primary">
+											</div>
+										</div>
+									</form>
 								</div>
-								<div class="col-md-14 col-md-push-1 text-center">
+								<div class="col-md-3 col-md-push-1 text-center">
 									<div class="total">
 										<div class="sub">
-											<p><span>Subtotal:</span> <span>$200.00</span></p>
-											<p><span>Ongkos Kirim:</span> <span>$0.00</span></p>
-											<p><span>Diskon:</span> <span>$45.00</span></p>
+										
 										</div>
 										<div class="grand-total">
 											<p><span><strong>Total:</strong></span> <span>$450.00</span></p>
 										</div>
+										<!-- tombol pembelian -->
+										<a href="#"><button class="btn btn-primary btn-md">Pesan Sekarang</button></a>
 									</div>
 								</div>
-								<br> <br>
-								<form action="checkout.php">
-										<div class="row form-group">
-											<div class="col-md-3">
-												<input type="submit" value="Pesan Sekarang" class="btn btn-primary">
-											</div>
-										</div>
-									</form>
 							</div>
 						</div>
 					</div>
