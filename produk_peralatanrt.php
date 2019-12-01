@@ -106,7 +106,11 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			  	</ul>
+				  </ul>
+				  <form action="" method="get" class="navbar-form navbar-right">
+						<input type="text" class="form">
+						<button class="btn btn-primary">Cari</button>
+					</form>
 		  	</div>
 		</aside>
 
@@ -116,14 +120,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
-						<h2><span>PERALATAN BAYI</span></h2>
-						<p>Kategori peralatan bayi berisi keperluan bayi mulai dari pakaian, gendongan, dan  kereta dorong dengan harga terjamin, namun barang berkualitas.</p>
+						<h2><span>PERALATAN RUMAH TANGGA</span></h2>
+						<p>Kategori peralatan rumah tangga berisi perabotan yang dibutuhkan untuk alat dapur, dan alat kebersihan dengan harga terjamin.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/bayi001.jpg);">
+							<div class="product-img" style="background-image: url(images/spatula.jpg);">
 								<p class="tag"><span class="sale">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -135,14 +139,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">Bayi</a></h3>
+								<h3><a href="shop.html">Spatula</a></h3>
 								<p class="price"><span>Rp 55.000</span> <span class="sale">Rp 285.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/bayi003.jpg);">
+							<div class="product-img" style="background-image: url(images/sendok1.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -154,14 +158,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">Bayi1</a></h3>
+								<h3><a href="shop.html">Sendok</a></h3>
 								<p class="price"><span>Rp 64.000</span> <span class="sale">Rp 195.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/bayi002.jpg);">
+							<div class="product-img" style="background-image: url(images/sendok2.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -173,14 +177,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">Bayi2</a></h3>
+								<h3><a href="shop.html">SENDOK</a></h3>
 								<p class="price"><span>Rp 100.000</span> <span class="sale">Rp 185.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/tasbayi.jpg);">
+							<div class="product-img" style="background-image: url(images/pisau.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -192,14 +196,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">tas</a></h3>
+								<h3><a href="shop.html">Pisau</a></h3>
 								<p class="price"><span>Rp 189.000</span> <span class="sale">Rp 563.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/gendonganbayi.webp);">
+							<div class="product-img" style="background-image: url(images/pancii.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -211,14 +215,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">gendongan bayi</a></h3>
+								<h3><a href="shop.html">PANCI</a></h3>
 								<p class="price"><span>Rp 102.500</span> <span class="sale">Rp 342.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/Bayi2.jpg);">
+							<div class="product-img" style="background-image: url(images/presto.jpEg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -230,14 +234,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">gendongan</a></h3>
+								<h3><a href="shop.html">PRESTO</a></h3>
 								<p class="price"><span>Rp 32.000</span> <span class="sale">Rp 95.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/gendongankaret.jpg);">
+							<div class="product-img" style="background-image: url(images/pan.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -249,14 +253,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">gendongsn kereta</a></h3>
+								<h3><a href="shop.html">PAN</a></h3>
 								<p class="price"><span>Rp 98.000</span> <span class="sale">Rp 198.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/gendonganbayi1.jpg);">
+							<div class="product-img" style="background-image: url(images/rt1.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -268,7 +272,7 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">gendongankereta</a></h3>
+								<h3><a href="shop.html">TEKO</a></h3>
 								<p class="price"><span>Rp 35.000</span> <span class="sale">Rp 126.000</span> </p>
 							</div>
 						</div>

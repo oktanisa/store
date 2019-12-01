@@ -65,7 +65,6 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-<<<<<<< HEAD:pembayaran.html
 							<div id="colorlib-logo"><a href="index.html">Store</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
@@ -85,16 +84,6 @@
 								<li><a href="about.html">About</a></li>
 								<li><a href="contact.html">Contact</a></li>
 								<li><a href="keranjang.html"><i class="icon-shopping-cart"></i> Keranjang</a></li>
-=======
-							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-								<li><a href="index.php">Beranda</a></li>
-								<li class="active"><a href="pembayaran.php">Pembayaran</a></li>
-								<li><a href="hubungikami.php">Hubungi Kami</a></li>
-								<li><a href="keranjang.php"><i class="icon-shopping-cart"></i>Keranjang</a></li>
->>>>>>> 1e4d4736aec2e430a05841eaec616ac301bb777a:pembayaran.php
 							</ul>
 						</div>
 					</div>
@@ -110,13 +99,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
-<<<<<<< HEAD:pembayaran.html
 				   					<h1>Checkout</h1>
 				   					<h2 class="bread"><span><a href="index.html">Home</a></span> <span><a href="cart.html">Shopping Cart</a></span> <span>Checkout</span></h2>
-=======
-				   					<h1>Pembayaran</h1>
-				   					<h2 class="bread"><span><a href="index.php">Beranda</a></span> <span>Pembayaran</span></h2>
->>>>>>> 1e4d4736aec2e430a05841eaec616ac301bb777a:pembayaran.php
 				   				</div>
 				   			</div>
 				   		</div>
@@ -149,21 +133,28 @@
 			               <div class="col-md-12">
 									<div class="form-group">
 										<label for="companyname">Bank</label>
-			                    	<input type="text" id="towncity" class="form-control" placeholder="Bank">
+									<input type="text" id="towncity" class="form-control" placeholder="Bank
+									
+									<div class="form-group col-md-6">
+										<br>
+										Upload gambar :<br><br>
+										<input type="file" name="filefoto"
+									</div>
 			                  </div>
 						   </div>
 						  <div class="form-group">
 						<div class="row">
-							<div class="col-md-7">
+							<div class="col-md-6">
 								<p><a href="#" class="btn btn-primary">Upload</a></p>
 							</div>
-						</div>
-					</div>
-						<div class="row">
-							<div class="col-md-7">
+							<div class="row">
+							<div class="col-md-6">
 								<p><a href="#" class="btn btn-primary">Batal</a></p>
 							</div>
 						</div>
+						</div>
+					</div>
+						
 					</div>
 				</div>
 				<div class="col-md-5">
@@ -202,12 +193,10 @@
 							<div class="process text-center">
 								<p><span>03</span></p>
 								<h3>Sudah Terbayar</h3>
-							</div>
-						
+							</div>	
 						</div>
 					</div>
-				</div>
-				
+				</div>	
 			</div>	
 		<footer id="colorlib-footer" role="contentinfo">
 			<div class="container">
