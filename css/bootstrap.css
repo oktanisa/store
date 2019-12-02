@@ -3887,6 +3887,10 @@ tbody.collapse.in {
   }
 }
 
+.navbar-form .navbar-right{
+  background: #222;
+}
+
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;

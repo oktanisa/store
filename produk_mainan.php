@@ -106,7 +106,11 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			  	</ul>
+				  </ul>
+				  <form action="" method="get" class="navbar-form navbar-right">
+						<input type="text" class="form">
+						<button class="btn btn-primary">Cari</button>
+					</form>
 		  	</div>
 		</aside>
 
@@ -135,7 +139,7 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">mainan</a></h3>
+								<h3><a href="shop.html">TRUCK</a></h3>
 								<p class="price"><span>Rp 55.000</span> <span class="sale">Rp 285.000</span> </p>
 							</div>
 						</div>
@@ -161,7 +165,7 @@
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/mainan11.jpg);">
+							<div class="product-img" style="background-image: url(images/mainan3.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -173,14 +177,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">bongkar pasang</a></h3>
+								<h3><a href="shop.html">MOBIL</a></h3>
 								<p class="price"><span>Rp 100.000</span> <span class="sale">Rp 185.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/mainan33.jpg);">
+							<div class="product-img" style="background-image: url(images/mainan22.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -192,14 +196,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">truck</a></h3>
+								<h3><a href="shop.html">TRUCK</a></h3>
 								<p class="price"><span>Rp 189.000</span> <span class="sale">Rp 563.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/mainan22.jpg);">
+							<div class="product-img" style="background-image: url(images/mainan3.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -211,14 +215,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">BANDAI HOBBY FIGURINE</a></h3>
+								<h3><a href="shop.html">MOBIL</a></h3>
 								<p class="price"><span>Rp 102.500</span> <span class="sale">Rp 342.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/mainan22.jpg);">
+							<div class="product-img" style="background-image: url(images/mainan3.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -230,14 +234,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">KAOS SANTAI</a></h3>
+								<h3><a href="shop.html">MOBIL</a></h3>
 								<p class="price"><span>Rp 32.000</span> <span class="sale">Rp 95.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/mainan22.jpg);">
+							<div class="product-img" style="background-image: url(images/mainan3.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -249,14 +253,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">STRIPE CROP</a></h3>
+								<h3><a href="shop.html">MOBIL</a></h3>
 								<p class="price"><span>Rp 98.000</span> <span class="sale">Rp 198.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/mainan22.jpg);">
+							<div class="product-img" style="background-image: url(images/mainan3.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -268,7 +272,7 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">KAOS ART</a></h3>
+								<h3><a href="shop.html">MOBIL</a></h3>
 								<p class="price"><span>Rp 35.000</span> <span class="sale">Rp 126.000</span> </p>
 							</div>
 						</div>

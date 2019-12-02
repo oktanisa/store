@@ -106,8 +106,12 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			  	</ul>
-		  	</div>
+				  </ul>
+					<form action="" method="get" class="navbar-form navbar-right">
+						<input type="text" class="form">
+						<button class="btn btn-primary">Cari</button>
+					</form>
+			  </div>
 		</aside>
 
 		
@@ -116,14 +120,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
-						<h2><span>PERALATAN RUMAH TANGGA</span></h2>
-						<p>Kategori peralatan rumah tangga berisi perabotan yang dibutuhkan untuk alat dapur, dan alat kebersihan dengan harga terjamin.</p>
+						<h2><span>FASHION</span></h2>
+						<p>Kategori fashion berisi keperluan fashion yang dapata menunjang kebutuhan anda dengan harga terjamin. Menyediakan Topi, kerudung, atasan, bawahan, hingga sepatu. ada untuk pria / wanita.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/spatula.jpg);">
+							<div class="product-img" style="background-image: url(images/fashion1.jpg);">
 								<p class="tag"><span class="sale">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -135,14 +139,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">Spatula</a></h3>
+								<h3><a href="shop.html">Kemeja Tartan</a></h3>
 								<p class="price"><span>Rp 55.000</span> <span class="sale">Rp 285.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/sendok.png);">
+							<div class="product-img" style="background-image: url(images/fashion2.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -154,14 +158,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">Sendok</a></h3>
+								<h3><a href="shop.html">OUTER KERJA</a></h3>
 								<p class="price"><span>Rp 64.000</span> <span class="sale">Rp 195.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/sendok2.jpg);">
+							<div class="product-img" style="background-image: url(images/item-14.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -173,14 +177,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">SENDOK</a></h3>
+								<h3><a href="shop.html">OUTER TEBAL BLUDRU</a></h3>
 								<p class="price"><span>Rp 100.000</span> <span class="sale">Rp 185.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/mangkok.jpg);">
+							<div class="product-img" style="background-image: url(images/item-13.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -192,14 +196,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">Mangkok</a></h3>
+								<h3><a href="shop.html">OUTER TEBAL</a></h3>
 								<p class="price"><span>Rp 189.000</span> <span class="sale">Rp 563.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/piring.jpg);">
+							<div class="product-img" style="background-image: url(images/item-5.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -211,14 +215,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">PIRING</a></h3>
+								<h3><a href="shop.html">BANDAI HOBBY FIGURINE</a></h3>
 								<p class="price"><span>Rp 102.500</span> <span class="sale">Rp 342.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/piring gelas.jpg);">
+							<div class="product-img" style="background-image: url(images/item-10.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -230,14 +234,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">PIRING GELAS</a></h3>
+								<h3><a href="shop.html">KAOS SANTAI</a></h3>
 								<p class="price"><span>Rp 32.000</span> <span class="sale">Rp 95.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/pan.jpg);">
+							<div class="product-img" style="background-image: url(images/item-11.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -249,14 +253,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">PAN</a></h3>
+								<h3><a href="shop.html">STRIPE CROP</a></h3>
 								<p class="price"><span>Rp 98.000</span> <span class="sale">Rp 198.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/presto.jpg);">
+							<div class="product-img" style="background-image: url(images/item-7.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -268,7 +272,7 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">PRESTO</a></h3>
+								<h3><a href="shop.html">KAOS ART</a></h3>
 								<p class="price"><span>Rp 35.000</span> <span class="sale">Rp 126.000</span> </p>
 							</div>
 						</div>

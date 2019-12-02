@@ -1,3 +1,14 @@
+<?php
+
+//require 'functions.php'
+ //$kategori = query("SELECT * FROM kategori")
+
+//tombol cari ditekan
+//if( isset($_POST["cari"])) {
+	//$kategori = cari($POST["keyword"]);
+ //}
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -106,7 +117,14 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			  	</ul>
+				  </ul>
+				  <br>
+				  <form action="" method="post" class="col-md-offset-9">
+
+						<input type="text" name="keyword" size="25" autofocus"
+						placeholder="masukkan kategori produk" autocomplete="off">
+						<button type="submit" name="cari">Cari</button>
+					</form>
 		  	</div>
 		</aside>
 
@@ -116,14 +134,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
-						<h2><span>FASHION</span></h2>
-						<p>Kategori fashion berisi keperluan fashion yang dapata menunjang kebutuhan anda dengan harga terjamin. Menyediakan Topi, kerudung, atasan, bawahan, hingga sepatu. ada untuk pria / wanita.</p>
+						<h2><span>PERALATAN BAYI</span></h2>
+						<p>Kategori peralatan bayi berisi keperluan bayi mulai dari pakaian, gendongan, dan  kereta dorong dengan harga terjamin, namun barang berkualitas.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/fashion1.jpg);">
+							<div class="product-img" style="background-image: url(images/tasbayi.jpg);">
 								<p class="tag"><span class="sale">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -135,14 +153,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">Kemeja Tartan</a></h3>
+								<h3><a href="shop.html">Tas Bayi</a></h3>
 								<p class="price"><span>Rp 55.000</span> <span class="sale">Rp 285.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/fashion2.jpg);">
+							<div class="product-img" style="background-image: url(images/bayi003.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -154,14 +172,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">OUTER KERJA</a></h3>
+								<h3><a href="shop.html">Bayi1</a></h3>
 								<p class="price"><span>Rp 64.000</span> <span class="sale">Rp 195.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/item-14.jpg);">
+							<div class="product-img" style="background-image: url(images/bayi002.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -173,14 +191,14 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">OUTER TEBAL BLUDRU</a></h3>
+								<h3><a href="shop.html">Bayi2</a></h3>
 								<p class="price"><span>Rp 100.000</span> <span class="sale">Rp 185.000</span> </p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/item-13.jpg);">
+							<div class="product-img" style="background-image: url(images/tasbayi.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -192,33 +210,15 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">OUTER TEBAL</a></h3>
+								<h3><a href="shop.html">tas</a></h3>
 								<p class="price"><span>Rp 189.000</span> <span class="sale">Rp 563.000</span> </p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 text-center">
-						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/item-5.jpg);">
-								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
-							</div>
-							<div class="desc">
-								<h3><a href="shop.html">BANDAI HOBBY FIGURINE</a></h3>
-								<p class="price"><span>Rp 102.500</span> <span class="sale">Rp 342.000</span> </p>
-							</div>
-						</div>
 					</div>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/item-10.jpg);">
+							<div class="product-img" style="background-image: url(images/topibayi1.jpeg);">
 								<p class="tag"><span class="new">Diskon</span></p>
 								<div class="cart">
 									<p>
@@ -230,48 +230,65 @@
 								</div>
 							</div>
 							<div class="desc">
-								<h3><a href="shop.html">KAOS SANTAI</a></h3>
-								<p class="price"><span>Rp 32.000</span> <span class="sale">Rp 95.000</span> </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 text-center">
-						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/item-11.jpg);">
-								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
-							</div>
-							<div class="desc">
-								<h3><a href="shop.html">STRIPE CROP</a></h3>
-								<p class="price"><span>Rp 98.000</span> <span class="sale">Rp 198.000</span> </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 text-center">
-						<div class="product-entry">
-							<div class="product-img" style="background-image: url(images/item-7.jpg);">
-								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
-							</div>
-							<div class="desc">
-								<h3><a href="shop.html">KAOS ART</a></h3>
+								<h3><a href="shop.html">Topi Bayi</a></h3>
 								<p class="price"><span>Rp 35.000</span> <span class="sale">Rp 126.000</span> </p>
 							</div>
 						</div>
+					</div>
+					<div class="col-md-3 text-center">
+						<div class="product-entry">
+							<div class="product-img" style="background-image: url(images/sepatubayi.jpg);">
+								<p class="tag"><span class="new">Diskon</span></p>
+								<div class="cart">
+									<p>
+										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
+										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
+										<span><a href="#"><i class="icon-heart3"></i></a></span>
+										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
+									</p>
+								</div>
+							</div>
+							<div class="desc">
+								<h3><a href="shop.html">Sepatu Bayi</a></h3>
+								<p class="price"><span>Rp 35.000</span> <span class="sale">Rp 126.000</span> </p>
+							</div>
+						</div>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="product-entry">
+						<div class="product-img" style="background-image: url(images/sepatubayi4.jpg);">
+							<p class="tag"><span class="new">Diskon</span></p>
+							<div class="cart">
+								<p>
+									<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
+									<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
+									<span><a href="#"><i class="icon-heart3"></i></a></span>
+									<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
+								</p>
+							</div>
+						</div>
+						<div class="desc">
+							<h3><a href="shop.html">Sepatu Bayi</a></h3>
+							<p class="price"><span>Rp 35.000</span> <span class="sale">Rp 126.000</span> </p>
+						</div>
+					</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="product-entry">
+					<div class="product-img" style="background-image: url(images/topibayi.jpg);">
+						<p class="tag"><span class="new">Diskon</span></p>
+						<div class="cart">
+							<p>
+								<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
+								<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
+								<span><a href="#"><i class="icon-heart3"></i></a></span>
+								<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
+							</p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="shop.html">Topi Bayi</a></h3>
+						<p class="price"><span>Rp 35.000</span> <span class="sale">Rp 126.000</span> </p>
 					</div>
 				</div>
 			</div>
