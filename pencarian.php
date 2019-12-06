@@ -2,7 +2,8 @@
 <?php
 $keyword = $_GET["keyword"];
 
-echo $keyword;
+$semuadata=array();
+$koneksi->query("SELECT * FROM produk WHERE nama_produk LIKE '%$keyword%'")
 ?>
 <!DOCTYPE html>
 <html>
