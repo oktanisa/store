@@ -108,7 +108,12 @@
 			   		</div>
 			   	</li>
 				  </ul>
-				  
+				  <form action="" method="get" class="navbar-form navbar-right">
+						<input type="text" class="form">
+						<button class="btn btn-primary">Cari</button>
+					</form>
+			  </div>
+		</div>
 			  </div>
 		</aside>
 		
@@ -123,6 +128,9 @@
 						<p>Kategori peralatan bayi berisi keperluan bayi mulai dari pakaian, gendongan, dan  kereta dorong dengan harga terjamin, namun barang berkualitas.</p>
 					</div>
 				</div>
+<<<<<<< HEAD
+				
+=======
 				<div>
 		</div>
 
@@ -134,19 +142,13 @@
 			  </div>
 
 
+>>>>>>> 5e0dc72dcb3a068e61242113125ad03bff54285b
 				<div class="row">
+				<br>
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/tasbayi.jpg);">
 								<p class="tag"><span class="sale">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Tas Bayi</a></h3>
@@ -158,14 +160,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/bayi003.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Bayi1</a></h3>
@@ -177,14 +171,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/bayi002.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Bayi2</a></h3>
@@ -196,14 +182,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/tasbayi.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">tas</a></h3>
@@ -216,14 +194,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/topibayi1.jpeg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Topi Bayi</a></h3>
@@ -235,14 +205,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/sepatubayi.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Sepatu Bayi</a></h3>
@@ -254,14 +216,6 @@
 					<div class="product-entry">
 						<div class="product-img" style="background-image: url(images/sepatubayi4.jpg);">
 							<p class="tag"><span class="new">Diskon</span></p>
-							<div class="cart">
-								<p>
-									<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-									<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-									<span><a href="#"><i class="icon-heart3"></i></a></span>
-									<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-								</p>
-							</div>
 						</div>
 						<div class="desc">
 							<h3><a href="shop.html">Sepatu Bayi</a></h3>
@@ -273,14 +227,6 @@
 				<div class="product-entry">
 					<div class="product-img" style="background-image: url(images/topibayi.jpg);">
 						<p class="tag"><span class="new">Diskon</span></p>
-						<div class="cart">
-							<p>
-								<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-								<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-								<span><a href="#"><i class="icon-heart3"></i></a></span>
-								<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-							</p>
-						</div>
 					</div>
 					<div class="desc">
 						<h3><a href="shop.html">Topi Bayi</a></h3>
