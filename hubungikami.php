@@ -115,7 +115,17 @@
 								<p><span><i class="icon-paperplane"></i></span> <a href="mailto:info@yoursite.com">abagbag@gmail.com</a></p>
 							</div>
 						</div>
+						<div class="map">
+                <div class="row">
+                    <div class="col-lg-6">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.2981022392079!2d113.71795821989896!3d-8.183363292291528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6967fa9abec6d%3A0x7dbfba98768cf852!2sJl.%20Letjen%20S.Parman%20No.42%2C%20Lingkungan%20Sadengan%2C%20Sumbersari%2C%20Kec.%20Sumbersari%2C%20Kabupaten%20Jember%2C%20Jawa%20Timur%2068121!5e0!3m2!1sen!2sid!4v1575624225563!5m2!1sen!2sid" 
+								width="980" height="530" frameborder="1" style="border:1;" allowfullscreen="">"
+							
+						</iframe>
+                    </div>
 					</div>
+                </div>
+            </div>
 		
 			
 		<footer id="colorlib-footer" role="contentinfo">

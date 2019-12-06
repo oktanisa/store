@@ -16,8 +16,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: #595959;
-  background: #fff; 
-}
+  background: #fff; }
 
 #page {
   position: relative;
@@ -2204,10 +2203,29 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 transition: all 250ms ease-in-out 0s;
 
 }
-#pencarian {
-  padding-top: 1em;
-  height: 20px;
-  width: 30px;
+
+form {
+  width:400px;
+  margin:14px auto;
+}
+.search {
+  padding:4px 4px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+  width: 220px auto;
+  
+}
+.button {
+  position:relative;
+  padding:6px 8px;
+  left:-3px;
+  border:2px solid #53bd84;
+  background-color:#53bd84;
+  color:#fafafa;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#207cca;
 }
 
 /* USING BOOTSTRAP 3.0.3 */
