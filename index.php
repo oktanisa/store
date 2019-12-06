@@ -209,14 +209,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/fashion1.jpg);">
 								<p class="tag"><span class="sale">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Kemeja Tartan</a></h3>
@@ -228,14 +220,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/fashion2.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">OUTER KERJA</a></h3>
@@ -247,14 +231,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/bayi1.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">SEPATU BAYI</a></h3>
@@ -266,14 +242,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/bayi2.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">KERETA BAYI</a></h3>
@@ -285,14 +253,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/mainan2.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">BANDAI HOBBY FIGURINE</a></h3>
@@ -304,14 +264,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/mainan3.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">MOBIL MOBILAN</a></h3>
@@ -323,14 +275,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/rt1.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">TEKO MASPION</a></h3>
@@ -342,14 +286,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/rt2.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">SENDOK SET WESTON</a></h3>

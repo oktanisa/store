@@ -123,14 +123,17 @@
 						<p>Kategori peralatan bayi berisi keperluan bayi mulai dari pakaian, gendongan, dan  kereta dorong dengan harga terjamin, namun barang berkualitas.</p>
 					</div>
 				</div>
-				<div class="pencarian">
-				<div class="col-md-6 col-md-offset-6 col-sm-2 col-xs-2 slider-text" >
-			  		<form action="" method="get" class="navbar-form navbar-right">
-						<input type="text" class="form">
-						<button class="btn btn-primary">Cari</button>
+				<div>
+		</div>
+
+		<div class="col-md-6 col-md-offset-9 col-sm-1 col-xs-2 slider-text" >
+					<form>
+						<input class="search" type="text" placeholder="Cari..." required>	
+						<input class="button" type="button" value="Cari">		
 					</form>
 			  </div>
-		</div>
+
+
 				<div class="row">
 					<div class="col-md-3 text-center">
 						<div class="product-entry">
