@@ -85,55 +85,19 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#">ABAGBAG</a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page</a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active"><a href="index.php">Beranda</a></li>
+        <li><a href="pembayaran.php">Pembayaran</a></li>
+		<li><a href="hubungikami.php">Hubungi Kami</a></li>
+        <li><a href="keranjang.php">Keranjang</a></li>
       </ul>
     </div><!--/.nav-collapse -->
 </nav>
-
-
-
-
-
-
-
-
-
-		
-	<div class="colorlib-loader"></div>
-
-	<div id="page">
-				
-		<nav class="colorlib-nav" role="navigation">
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-								<li class="active"><a href="index.php">Beranda</a></li>
-								<li><a href="pembayaran.php">Pembayaran</a></li>
-								<li><a href="hubungikami.php">Hubungi Kami</a></li>
-								<li><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
-		<aside id="colorlib-hero">
+<br><br>
+<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
 			   	<li style="background-image: url(images/keranjangbayii.jpg);">
