@@ -138,14 +138,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/sendok1.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Sendok</a></h3>
@@ -157,14 +149,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/sendok2.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">SENDOK</a></h3>
@@ -176,14 +160,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/pisau.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">Pisau</a></h3>
@@ -195,14 +171,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/pancii.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">PANCI</a></h3>
@@ -214,14 +182,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/presto.jpEg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">PRESTO</a></h3>
@@ -233,14 +193,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/pan.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">PAN</a></h3>
@@ -252,14 +204,6 @@
 						<div class="product-entry">
 							<div class="product-img" style="background-image: url(images/rt1.jpg);">
 								<p class="tag"><span class="new">Diskon</span></p>
-								<div class="cart">
-									<p>
-										<span class="addtocart"><a href="cart.html"><i class="icon-shopping-cart"></i></a></span> 
-										<span><a href="product-detail.html"><i class="icon-eye"></i></a></span> 
-										<span><a href="#"><i class="icon-heart3"></i></a></span>
-										<span><a href="add-to-wishlist.html"><i class="icon-bar-chart"></i></a></span>
-									</p>
-								</div>
 							</div>
 							<div class="desc">
 								<h3><a href="shop.html">TEKO</a></h3>
