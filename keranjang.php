@@ -57,28 +57,21 @@
 	</head>
 	<body>
 		
-	<div class="colorlib-loader"></div>
-
-	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-								<li><a href="index.php">Beranda</a></li>
-								<li><a href="pembayaran.php">Pembayaran</a></li>
-								<li><a href="hubungikami.php">Hubungi Kami</a></li>
-								<li class="active"><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">ABAGBAG</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="index.php">Beranda</a></li>
+        <li><a href="pembayaran.php">Pembayaran</a></li>
+		<li><a href="hubungikami.php">Hubungi Kami</a></li>
+        <li><a href="keranjang.php">Keranjang</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+</nav>
+<br><br>
 		<aside id="colorlib-hero" class="breadcrumbs">
 			<div class="flexslider">
 				<ul class="slides">
@@ -185,9 +178,7 @@
 							</div>
 							<div class="one-eight text-center">
 								<div class="display-tc">
-									<form action="#">
-										<input type="text" name="quantity" class="form-control input-number text-center" value="1" min="1" max="100">
-									</form>
+									<input type="text"  id="quantity" name="quantity" class="form-control input-number text-center" value="1" min="1" max="100">
 								</div>
 							</div>
 							<div class="one-eight text-center">
@@ -246,19 +237,23 @@
 											<p><span>Ongkos Kirim:</span> <span>$0.00</span></p>
 											<p><span>Diskon:</span> <span>$45.00</span></p>
 										</div>
+										
 										<div class="grand-total">
 											<p><span><strong>Total:</strong></span> <span>$450.00</span></p>
 										</div>
-									</div>
-								</div>
-								<br> <br>
-								<form action="checkout.php">
+
+										<form action="checkout.php">
 										<div class="row form-group">
-											<div class="col-md-3">
+											<div class="col-md-12" >
 												<input type="submit" value="Pesan Sekarang" class="btn btn-primary">
 											</div>
 										</div>
-									</form>
+										</form>
+
+									</div>
+								</div>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -266,10 +261,13 @@
 			</div>
 		</div>
 		
-		<footer id="colorlib-footer" role="contentinfo">
-			<div class="container">
-				<div class="row row-pb-md">
+		
+<footer id="footer" class="footer-1">
+	<div class="main-footer widgets-dark typo-light">
+		<div class="container">
+		<div class="row row-pb-md">
 					<div class="col-md-5 colorlib-widget">
+						<br><br>
 						<h4>Tentang Kami</h4>
 						<p>Toko online terlengkap dan termurah dengan harga promo setiap harinya.
 							Tidak hanya produk fashion saja, kami juga menyediakan perlengkapan bayi, mainan anak dan peralatan rumah tangga.
@@ -286,6 +284,7 @@
 
 
 					<div class="col-md-6">
+						<br><br>
 						<h4>Kontak Kami</h4>
 						<ul class="colorlib-footer-links">
 							<li>Jl. S.Parman No.42 Jember 68121, <br> </li>
@@ -293,25 +292,34 @@
 							<li><a href="mailto:abagbag@gmail.com">abagbag@gmail.com</a></li>
 						</ul>
 					</div>
+	
 				</div>
 			</div>
-			<div class="copy">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<p>
-							
-							<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Abagbag </span> 
-						</p>
-					</div>
-				</div>
+
 			</div>
-		</footer>
+		</div>
 	</div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	<div>
+	<div class="footer-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<br><br><br><br><br><br><br><br><br><br>
+					<p>
+												
+												<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Abagbag </span> 
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
+	</div>
+	
+	
+</footer>
+	
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -334,8 +342,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Ab
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	</script>
+
 
 	</body>
 </html>
-

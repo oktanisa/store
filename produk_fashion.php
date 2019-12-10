@@ -57,28 +57,21 @@
 	</head>
 	<body>
 		
-	<div class="colorlib-loader"></div>
-
-	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-								<li class="active"><a href="index.php">Beranda</a></li>
-								<li><a href="pembayaran.php">Pembayaran</a></li>
-								<li><a href="contact.php">Hubungi Kami</a></li>
-								<li><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">ABAGBAG</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="index.php">Beranda</a></li>
+        <li><a href="pembayaran.php">Pembayaran</a></li>
+		<li><a href="hubungikami.php">Hubungi Kami</a></li>
+        <li><a href="keranjang.php">Keranjang</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+</nav>
+<br><br>
 
 		<aside id="colorlib-hero" class="breadcrumbs">
 			<div class="flexslider">
@@ -90,7 +83,7 @@
 				   			<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 slider-text">
 				   				<div class="slider-text-inner text-center">
 				   					<h1>Produk</h1>
-				   					<h2 class="bread"><span><a href="index.html">Beranda</a></span> <span>Produk</span></h2>
+				   					<h2 class="bread"><span><a href="index.html">Beranda</a></span> <span> Kategori Produk</span></h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -222,78 +215,64 @@
 		</div>
 	</div>
 
-	<div id="colorlib-subscribe">
-		<div class="overlay"></div>
+	<footer id="footer" class="footer-1">
+	<div class="main-footer widgets-dark typo-light">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-6 text-center">
-						<h2><i class="icon-paperplane"></i>Sign Up for a Newsletter</h2>
+		<div class="row row-pb-md">
+					<div class="col-md-5 colorlib-widget">
+						<br><br>
+						<h4>Tentang Kami</h4>
+						<p>Toko online terlengkap dan termurah dengan harga promo setiap harinya.
+							Tidak hanya produk fashion saja, kami juga menyediakan perlengkapan bayi, mainan anak dan peralatan rumah tangga.
+						</p>
+						<p>
+							<ul class="colorlib-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul>
+						</p>
 					</div>
+
+
 					<div class="col-md-6">
-						<form class="form-inline qbstp-header-subscribe">
-							<div class="row">
-								<div class="col-md-12 col-md-offset-0">
-									<div class="form-group">
-										<input type="text" class="form-control" id="email" placeholder="Enter your email">
-										<button type="submit" class="btn btn-primary">Subscribe</button>
-									</div>
-								</div>
-							</div>
-						</form>
+						<br><br>
+						<h4>Kontak Kami</h4>
+						<ul class="colorlib-footer-links">
+							<li>Jl. S.Parman No.42 Jember 68121, <br> </li>
+							<li><a href="tel://1234567920">(0331) 330900</a></li>
+							<li><a href="mailto:abagbag@gmail.com">abagbag@gmail.com</a></li>
+						</ul>
 					</div>
+	
 				</div>
+			</div>
+
 			</div>
 		</div>
 	</div>
 
-						<footer id="colorlib-footer" role="contentinfo">
-								<div class="container">
-									<div class="row row-pb-md">
-										<div class="col-md-5 colorlib-widget">
-											<h4>Tentang Kami</h4>
-											<p>Toko online terlengkap dan termurah dengan harga promo setiap harinya.
-												Tidak hanya produk fashion saja, kami juga menyediakan perlengkapan bayi, mainan anak dan peralatan rumah tangga.
-											</p>
-											<p>
-												<ul class="colorlib-social-icons">
-													<li><a href="#"><i class="icon-twitter"></i></a></li>
-													<li><a href="#"><i class="icon-facebook"></i></a></li>
-													<li><a href="#"><i class="icon-linkedin"></i></a></li>
-													<li><a href="#"><i class="icon-dribbble"></i></a></li>
-												</ul>
-											</p>
-										</div>
-					
-					
-										<div class="col-md-6">
-											<h4>Kontak Kami</h4>
-											<ul class="colorlib-footer-links">
-												<li>Jl. S.Parman No.42 Jember 68121, <br> </li>
-												<li><a href="tel://1234567920">(0331) 330900</a></li>
-												<li><a href="mailto:abagbag@gmail.com">abagbag@gmail.com</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="copy">
-									<div class="row">
-										<div class="col-md-12 text-center">
-											<p>
+	<div>
+	<div class="footer-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<br><br><br><br><br><br><br><br><br><br>
+					<p>
 												
 												<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Abagbag </span> 
-											</p>
-										</div>
-									</div>
-								</div>
-							</footer>
-						</div>
-
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
+	</div>
+	
+	
+</footer>
+	
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -316,6 +295,7 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
 
 	</body>
 </html>

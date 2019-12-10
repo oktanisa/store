@@ -142,9 +142,9 @@
 						<div class="row row-pb-lg">
 							<div class="col-md-6 text-center">
 								<div class="product-entry">
-									<div class="product-img" style="background-image: url(images/logofashion.jpg);">
+									<a href="produk_fashion.php" class="product-img" style="background-image: url(images/logofashion.jpg);"> 
 										<p class="tag"><span class="sale">Sale</span></p>
-									</div>
+									</a>
 									<br>
 									<div class="desc">
 										<h3><a href="produk_fashion.php">Kategori Fashion</a></h3>
@@ -153,9 +153,9 @@
 							</div>
 							<div class="col-md-6 text-center">
 								<div class="product-entry">
-									<div class="product-img" style="background-image: url(images/logoperkapbaybi.jpg);">
+									<a href="produk_bayi.php" class="product-img" style="background-image: url(images/logoperkapbaybi.jpg);">
 										<p class="tag"><span class="sale">Sale</span></p>
-									</div>
+									</a>
 									<br>
 									<div class="desc">
 										<h3><a href="produk_bayi.php">Kategori Perlengkapan Bayi</a></h3>
@@ -164,9 +164,9 @@
 							</div>
 							<div class="col-md-6 text-center">
 								<div class="product-entry">
-									<div class="product-img" style="background-image: url(images/mainananak.jpg);">
+									<a href="produk_mainan.php" class="product-img" style="background-image: url(images/mainananak.jpg);">
 										<p class="tag"><span class="new">New</span></p>
-									</div>
+									</a>
 									<br>
 									<div class="desc">
 										<h3><a href="produk_mainan.php">Kategori Mainan Anak</a></h3>
@@ -175,8 +175,8 @@
 							</div>
 							<div class="col-md-6 text-center">
 								<div class="product-entry">
-									<div class="product-img" style="background-image: url(images/peralatanrumahtangga.jpg);">
-									</div>
+									<a href="produk_peralatanrt.php" class="product-img" style="background-image: url(images/peralatanrumahtangga.jpg);">
+									</a>
 									<br>
 									<div class="desc">
 										<h3><a href="produk_peralatanrt.php">Kategori Peralatan Rumah Tangga</a></h3>

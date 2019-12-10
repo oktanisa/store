@@ -57,28 +57,21 @@
 	</head>
 	<body>
 		
-	<div class="colorlib-loader"></div>
-
-	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.php">ABAGBAG</a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-								<li><a href="index.php">Beranda</a></li>
-								<li class="active"><a href="pembayaran.php">Pembayaran</a></li>
-								<li><a href="hubungikami.php">Hubungi Kami</a></li>
-								<li><a href="keranjang.php"><i class="icon-shopping-cart"></i> Keranjang</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">ABAGBAG</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="index.php">Beranda</a></li>
+        <li><a href="pembayaran.php">Pembayaran</a></li>
+		<li><a href="hubungikami.php">Hubungi Kami</a></li>
+        <li><a href="keranjang.php">Keranjang</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+</nav>
+<br><br>
 		<aside id="colorlib-hero" class="breadcrumbs">
 			<div class="flexslider">
 				<ul class="slides">
@@ -102,7 +95,7 @@
 				<div class="row">
 					<div class="col-md-5 col-md-offset-1">
 						<form method="post" class="colorlib-form">
-							<h2>Uploadd Bukti Pembayaran</h2>
+							<h2>Upload Bukti Pembayaran</h2>
 		              	<div class="row">
 			               <div class="col-md-12">
 			               </div>
@@ -119,7 +112,7 @@
 			                  </div>
 			               </div>
 			               <div class="col-md-12">
-									<div class="form-group">
+								<div class="form-group">
 										<label for="companyname">Bank</label>
 									<input type="text" id="towncity" class="form-control" placeholder="Bank
 									
@@ -158,40 +151,19 @@
 							</li>
 							<li>4. Terakhir scan atau foto bukti transfer nya.
 						</ul>
-						<h2>*ukuran gambar maksimal 1mb.</h2>
+						<h5>*ukuran gambar maksimal 1mb.</h5>
 					</div>
+					
 			</div>
-		</div>
+			
+		</div>	
 
-		<div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
-			<h2><span>Status Pembayaran</span></h2>
-		<div class="colorlib-shop">
-			<div class="container">
-				<div class="row row-pb-md">
-					<div class="col-md-6">
-						<div class="process-wrap">
-							<div class="process text-center active">
-								<p><span>01</span></p>
-								<h3>Belum Terbayar</h3>
-							</div>
-							<div class="process text-center active">
-								<p><span>02</span></p>
-								<h3>Proses</h3>
-							</div>
-							<div class="process text-center">
-								<p><span>03</span></p>
-								<h3>Sudah Terbayar</h3>
-							</div>	
-						</div>
-					</div>
-				</div>	
-			</div>	
-
-
-			<footer id="colorlib-footer" role="contentinfo">
-			<div class="container">
-				<div class="row row-pb-md">
+			<footer id="footer" class="footer-1">
+	<div class="main-footer widgets-dark typo-light">
+		<div class="container">
+		<div class="row row-pb-md">
 					<div class="col-md-5 colorlib-widget">
+						<br><br>
 						<h4>Tentang Kami</h4>
 						<p>Toko online terlengkap dan termurah dengan harga promo setiap harinya.
 							Tidak hanya produk fashion saja, kami juga menyediakan perlengkapan bayi, mainan anak dan peralatan rumah tangga.
@@ -208,6 +180,7 @@
 
 
 					<div class="col-md-6">
+						<br><br>
 						<h4>Kontak Kami</h4>
 						<ul class="colorlib-footer-links">
 							<li>Jl. S.Parman No.42 Jember 68121, <br> </li>
@@ -215,26 +188,34 @@
 							<li><a href="mailto:abagbag@gmail.com">abagbag@gmail.com</a></li>
 						</ul>
 					</div>
+	
 				</div>
 			</div>
-			<div class="copy">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<p>
-							
-							<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Abagbag </span> 
-						</p>
-					</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div>
+	<div class="footer-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<br><br><br><br><br><br><br><br><br><br>
+					<p>
+												
+												<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Abagbag </span> 
+					</p>
 				</div>
 			</div>
-		</footer>
+		</div>
 	</div>
-
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
+	
+	
+</footer>
+	
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -255,16 +236,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> by Ab
 	<script src="js/bootstrap-datepicker.js"></script>
 	<!-- Stellar Parallax -->
 	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
+
 	</body>
 </html>
-
-
-
-
 
