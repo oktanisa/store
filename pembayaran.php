@@ -64,8 +64,8 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
-        <li class="active"><a href="index.php">Beranda</a></li>
-        <li><a href="pembayaran.php">Pembayaran</a></li>
+        <li><a href="index.php">Beranda</a></li>
+        <li class="active"><a href="pembayaran.php">Pembayaran</a></li>
 		<li><a href="hubungikami.php">Hubungi Kami</a></li>
         <li><a href="keranjang.php">Keranjang</a></li>
       </ul>
